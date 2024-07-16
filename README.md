@@ -1,8 +1,8 @@
 <h1>Tech stack used:</h1>
 <ul>
   <li><b>React:</b> For building the user interface.</li>
-  <li>Tailwind CSS: For styling the components.</li>
-  <li>Framer Motion: For animations within the application.</li>
+  <li><b>Tailwind CSS:</b> For styling the components.</li>
+  <li><b>Framer Motion:</b> For animations within the application.</li>
 </ul>
 
 # React + Vite
