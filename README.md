@@ -1,6 +1,6 @@
-<h1>Tech stack applied:</h1>
+<h1>Tech stack used:</h1>
 <ul>
-  <li>React: For building the user interface.</li>
+  <li><b>React:</b> For building the user interface.</li>
   <li>Tailwind CSS: For styling the components.</li>
   <li>Framer Motion: For animations within the application.</li>
 </ul>
