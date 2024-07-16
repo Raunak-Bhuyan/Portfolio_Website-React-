@@ -1,3 +1,10 @@
+<h1>Tech stack applied:</h1>
+<ul>
+  <li>React: For building the user interface.</li>
+  <li>Tailwind CSS: For styling the components.</li>
+  <li>Framer Motion: For animations within the application.</li>
+</ul>
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
