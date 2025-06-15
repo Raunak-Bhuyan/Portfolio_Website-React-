@@ -1,5 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -25,7 +25,7 @@ const Technologies = () => {
             whileInView={{opacity:1, y:0}}
             inital={{opacity:0, y:-100}}
             transition={{duration:1.5}}
-            className="my-20 text-center text-4xl text-neutral-300">Technologies</motion.h2>
+            className="my-20 text-center text-4xl text-neutral-300">Tech Stack</motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -46,8 +46,9 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4"
                 >
-                    <TbBrandNextjs className="text-7xl text-white" />
+                    <SiTailwindcss className="text-7xl text-sky-400" />
                 </motion.div>
+
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
@@ -70,6 +71,7 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4"
                 >
+
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                 </motion.div>
             </motion.div>

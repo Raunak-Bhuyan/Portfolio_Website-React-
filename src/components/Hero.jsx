@@ -31,7 +31,7 @@ const Hero = () => {
                         animate="visible"
             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
              bg-clip-text text-4xl tracking-tight text-transparent">
-                Full Stack Developer
+                Full-Stack Developer
              </motion.span>
              <motion.p 
                          variants={container(1)}
@@ -44,10 +44,14 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
         <div className="flex justify-center">
-            <motion.img initial={{x:100, opacity: 0}}
-                animate={{x:0, opacity:1}}
-                transition = {{duration:1, delay:1.2}}
-                src={profilePic} alt="Kevin Rush"/>
+            <motion.img 
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                src={profilePic}
+                alt="Raunak Bhuyan"
+                className="w-90 h-90 rounded-2xl lg:w-64"
+            />
             </div>
             </div>
     </div>

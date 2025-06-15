@@ -13,24 +13,53 @@ const Contacts = () => {
                 Get in Touch
             </motion.h2>
             <div className="text-center tracking-tighter text-neutral-400">
+
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1 }}
                     className="my-4"
                 >
-                    {CONTACT.address}
+                    <a href={`mailto:${CONTACT.email}`}>
+                        {CONTACT.email}
+                    </a>
                 </motion.p>
+
+                <motion.p
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 1 }}
+                    className="my-4"
+                >
+                <a href={CONTACT.linkedin} target="_blank" rel="noopener noreferrer">
+                    LinkedIn: Raunak Bhuyan
+                </a>
+                </motion.p>
+
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
                     className="my-4"
                 >
-                    {CONTACT.phoneNo}
+                <a href={CONTACT.github} target="_blank" rel="noopener noreferrer">
+                    Github: Raunak-Bhuyan
+                </a>
                 </motion.p>
+
+                <motion.p
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    transition={{ duration: 1 }}
+                    className="my-4"
+                >
+                    <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer">
+                        Instagram: raunak_bhuyan
+                    </a>
+                </motion.p>   
+
                 <a href="#" className="border-b">
-                    {CONTACT.email}
+                    {CONTACT.top}
                 </a>
             </div>
         </div>
